@@ -28,6 +28,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     background-color: #e5e7eb;
 }
 
@@ -168,6 +169,10 @@ a {
     font-style: italic;
     color: #1F2937;
     margin-top: 50px;
+
+    /* display: flex;
+    align-items: center;
+    width: 100%; */
 }
 
 .quotee {
