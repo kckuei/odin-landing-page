@@ -2,6 +2,17 @@
 
 body {
     font-family: 'Muli', sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.one,
+.two,
+.three,
+.four,
+.footer {
+    flex: 1;
 }
 
 .one {
