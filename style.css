@@ -1,6 +1,8 @@
-/* Use a google font text? clear default properties? */
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
 
-.body {}
+body {
+    font-family: 'Muli', sans-serif;
+}
 
 .one {
     background-color: #1F2937
