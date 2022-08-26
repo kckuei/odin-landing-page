@@ -19,3 +19,8 @@ Implements a toy landing page from the Odin Project: Foundations [lesson](https:
 5. Using Chrome Dev Tools to view aggregated styles from your style.css file.
 6. Focus on atomic changes and commits. 
 7. Experiment with features on seperate branches. 
+
+## Future Improvements
+1. Responsive Design
+2. Fixed Header Bar
+See this [example](https://criosyom.github.io/Hakurei_Shrine/)
