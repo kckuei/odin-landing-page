@@ -2,8 +2,6 @@
 Implements a toy landing page from the Odin Project: Foundations [lesson](https://www.theodinproject.com/lessons/foundations-landing-page) using `HTML` and `CSS`.
 
 ### Assignment Prompt
-* Don’t forget to commit early & often! You can reference the Commit Message lesson here!
-
 1. Download the design images and take a look at what you’re going to be creating here. Image One (Full Design), Image Two (Color and Fonts)
    - The font that’s being used in the images is roboto.
    - Hero text is the statement that appears at the top of a web page.
