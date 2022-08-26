@@ -11,10 +11,9 @@ body {
 .one,
 .two,
 .three,
-.four,
-.footer {
+.four {
     flex: 1;
-    padding: 0px 100px;
+    padding: 0px 120px;
     /* align-self: stretch; */
 }
 
@@ -28,11 +27,16 @@ body {
 }
 
 .three {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     background-color: #e5e7eb;
 }
 
 .four {
-    background-color: #3882f6;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 /* .header,
@@ -103,7 +107,7 @@ a {
     margin-top: 20px;
 }
 
-input[type=button] {
+.call-to-action input[type=button] {
     background-color: #3882f6;
     color: #F9FAF8;
     border: 2px solid #F9FAF8;
@@ -111,6 +115,7 @@ input[type=button] {
     font-weight: bold;
     padding: 5px 20px;
     text-decoration: none;
+    height: 30px;
 }
 
 .main-title {
@@ -137,6 +142,7 @@ input[type=button] {
     display: flex;
     gap: 30px;
     margin-top: 40px;
+    margin-bottom: 50px;
     justify-content: center;
 }
 
@@ -164,16 +170,43 @@ input[type=button] {
     font-size: 36px;
     font-style: italic;
     color: #1F2937;
+    margin-top: 50px;
 }
 
 .quotee {
+    font-weight: bolder;
+    text-align: right;
+    padding-right: 30px;
+    margin-bottom: 50px;
+}
+
+.call-to-action {
+    background-color: #3882f6;
+    padding: 30px 60px;
+    margin: 30px 0px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.call-to-action div {
+    color: #e5e7eb;
+}
+
+.call-to-action>div>div:first-child {
+    font-size: 18px;
     font-weight: bold;
 }
 
 .footer {
-    background-color: #1F2937
+    background-color: #1F2937;
+    color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    padding: 30px 0px;
 }
 
-* {
+/* * {
     border: 1px solid red;
-}
+} */
