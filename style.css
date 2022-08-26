@@ -5,7 +5,6 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    /* align-items: center; */
 }
 
 .one,
@@ -13,8 +12,7 @@ body {
 .three,
 .four {
     flex: 1;
-    padding: 0px 120px;
-    /* align-self: stretch; */
+    padding: 0px 150px;
 }
 
 .header {
@@ -35,11 +33,10 @@ body {
 
 .four {
     display: flex;
-    flex-direction: column;
     justify-content: center;
 }
 
-/* .header,
+.header,
 .header-content,
 .info-title,
 .info-container,
@@ -48,7 +45,7 @@ body {
 .call-to-action,
 .footer>div {
     max-width: 1200px;
-} */
+}
 
 .header-logo {
     font-size: 18px;
@@ -188,6 +185,7 @@ a {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width: 100%;
 }
 
 .call-to-action div {
