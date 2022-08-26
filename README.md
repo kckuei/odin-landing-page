@@ -23,4 +23,5 @@ Implements a toy landing page from the Odin Project: Foundations [lesson](https:
 ## Future Improvements
 1. Responsive Design
 2. Fixed Header Bar
+
 See this [example](https://criosyom.github.io/Hakurei_Shrine/)
