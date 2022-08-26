@@ -1,5 +1,7 @@
 # Odin-landing-page
-Implements a toy landing page from the Odin Project: Foundations [lesson](https://www.theodinproject.com/lessons/foundations-landing-page) using `HTML` and `CSS`.
+Implements a toy landing page from the Odin Project: Foundations [lesson](https://www.theodinproject.com/lessons/foundations-landing-page) using `HTML` and `CSS`. 
+
+[Live preview here!](https://kckuei.github.io/odin-landing-page/)
 
 ### Assignment Prompt
 1. Download the design images and take a look at what you’re going to be creating here. Image One (Full Design), Image Two (Color and Fonts)
