@@ -13,6 +13,7 @@ body {
 .four,
 .footer {
     flex: 1;
+    padding: 0px 100px;
 }
 
 .header {
@@ -51,6 +52,42 @@ ul {
 a {
     text-decoration: none;
     color: #F9FAF8;
+}
+
+.header-content {
+    display: flex;
+    margin: 50px 0px;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.header-content-left {
+    flex: 1 1 auto;
+    width: 50%;
+}
+
+.header-content-right {
+    flex: 1 1 auto;
+    width: 50%;
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-placeholder {
+    color: #F9FAF8;
+}
+
+.header-content input[type=button] {
+    background-color: #3882f6;
+    color: #F9FAF8;
+    border: 2px solid #3882f6;
+    border-radius: 8px;
+    font-weight: bold;
+    padding: 5px 20px;
+    text-decoration: none;
+    margin-top: 20px;
 }
 
 input[type=button] {
