@@ -1,0 +1,75 @@
+/* Use a google font text? clear default properties? */
+
+.body {}
+
+.one {
+    background-color: #1F2937
+}
+
+.three {
+    background-color: #e5e7eb;
+}
+
+.four {
+    background-color: #3882f6;
+}
+
+.header-logo {
+    font-size: 18px;
+    color: #F9FAF8;
+    font-weight: bold;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    color: #F9FAF8
+}
+
+input[type=button] {
+    background-color: #3882f6;
+    color: #F9FAF8;
+    border: 2px solid #F9FAF8;
+    border-radius: 8px;
+    font-weight: bold;
+    padding: 5px 20px;
+    text-decoration: none;
+}
+
+.main-title {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8
+}
+
+.subtext {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.info-title {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+}
+
+.info-card {
+    border: 2px solid #388ef6;
+    border-radius: 8px;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.quotee {
+    font-weight: bold;
+}
+
+.footer {
+    background-color: #1F2937
+}
